@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		FA2C96112625A54400323F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C96102625A54400323F3D /* AppDelegate.swift */; };
 		FA2C96132625A54400323F3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C96122625A54400323F3D /* SceneDelegate.swift */; };
-		FA2C96152625A54400323F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C96142625A54400323F3D /* ViewController.swift */; };
 		FA2C96182625A54400323F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2C96162625A54400323F3D /* Main.storyboard */; };
 		FA2C961A2625A54500323F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2C96192625A54500323F3D /* Assets.xcassets */; };
 		FA2C961D2625A54500323F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2C961B2625A54500323F3D /* LaunchScreen.storyboard */; };
+		FA2C962C26270E3B00323F3D /* LoginFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C962B26270E3B00323F3D /* LoginFormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA2C960D2625A54400323F3D /* VkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2C96102625A54400323F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2C96122625A54400323F3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA2C96142625A54400323F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA2C96172625A54400323F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA2C96192625A54500323F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2C961C2625A54500323F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA2C961E2625A54500323F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2C962B26270E3B00323F3D /* LoginFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				FA2C96102625A54400323F3D /* AppDelegate.swift */,
 				FA2C96122625A54400323F3D /* SceneDelegate.swift */,
-				FA2C96142625A54400323F3D /* ViewController.swift */,
 				FA2C96162625A54400323F3D /* Main.storyboard */,
 				FA2C96192625A54500323F3D /* Assets.xcassets */,
 				FA2C961B2625A54500323F3D /* LaunchScreen.storyboard */,
 				FA2C961E2625A54500323F3D /* Info.plist */,
+				FA2C962B26270E3B00323F3D /* LoginFormViewController.swift */,
 			);
 			path = VkApp;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2C96152625A54400323F3D /* ViewController.swift in Sources */,
+				FA2C962C26270E3B00323F3D /* LoginFormViewController.swift in Sources */,
 				FA2C96112625A54400323F3D /* AppDelegate.swift in Sources */,
 				FA2C96132625A54400323F3D /* SceneDelegate.swift in Sources */,
 			);
