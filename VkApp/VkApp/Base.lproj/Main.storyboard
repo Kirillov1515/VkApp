@@ -21,7 +21,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqx-k3-J0k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1062" y="3"/>
+            <point key="canvasLocation" x="-1063" y="-80"/>
         </scene>
         <!--Login Form View Controller-->
         <scene sceneID="xCz-AG-pPo">
@@ -101,12 +101,13 @@
                     <connections>
                         <outlet property="loginTextField" destination="mfD-7C-2qR" id="Jdr-YD-KUa"/>
                         <outlet property="passwordTextField" destination="ncF-oe-BPz" id="ldK-XD-L7i"/>
+                        <outlet property="scrollView" destination="zx0-FR-DkN" id="4e5-VP-vC4"/>
                         <segue destination="5lI-0n-p1o" kind="show" identifier="SignInSegue" id="Z5d-xu-9AU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SYu-n1-eYy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-295.38461538461536" y="2.8436018957345972"/>
+            <point key="canvasLocation" x="-295" y="-79"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="iFz-qS-py9">
@@ -128,7 +129,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Twr-M4-pYq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="485" y="3"/>
+            <point key="canvasLocation" x="485" y="-79"/>
         </scene>
         <!--Groups-->
         <scene sceneID="RBA-T5-awY">
@@ -238,6 +239,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCL-uG-aPM">
+                                <rect key="frame" x="195" y="193" width="156" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.52941176469999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JrZ-yg-vIT" kind="unwind" unwindAction="exitToLoginFormWithUnwindSegue:" id="mto-FC-5vj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mi6-aC-4ih"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -246,8 +258,9 @@
                     <navigationItem key="navigationItem" id="UGg-BV-vWV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XXM-jh-326" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="JrZ-yg-vIT" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1272" y="773"/>
+            <point key="canvasLocation" x="1270.7692307692307" y="772.74881516587675"/>
         </scene>
         <!--Homepage-->
         <scene sceneID="ARq-0h-7J9">
