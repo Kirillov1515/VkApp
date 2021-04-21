@@ -23,12 +23,10 @@ extension AllGroupsViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let groupCell = tableView.dequeueReusableCell(withIdentifier: "GroupCell", for: indexPath) as? GroupCell else { return UITableViewCell() }
-        groupCell.photo.image = UIImage(named: listOfAllGroups[indexPath.row].imagePath)
-        groupCell.name.text = listOfAllGroups[indexPath.row].name
-        groupCell.theme.text = listOfAllGroups[indexPath.row].theme.rawValue
-        return groupCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "AllGroupTableViewCell", for: indexPath) as? AllGroupTableViewCell else { return UITableViewCell() }
+        cell.avatarImage.image = UIImage(named: listOfAllGroups[indexPath.row].imagePath)
+        cell.name.text = listOfAllGroups[indexPath.row].name
+        cell.theme.text = listOfAllGroups[indexPath.row].theme.rawValue
+        return cell
     }
-    
-    
 }

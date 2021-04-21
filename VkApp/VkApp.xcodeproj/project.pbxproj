@@ -19,9 +19,9 @@
 		FAE1AA34262EBF8D008F4515 /* ListOfGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1AA33262EBF8D008F4515 /* ListOfGroups.swift */; };
 		FAE1AA38262EC8CB008F4515 /* MyGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1AA37262EC8CB008F4515 /* MyGroupsViewController.swift */; };
 		FAE1AA3C262EC8DB008F4515 /* AllGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1AA3B262EC8DB008F4515 /* AllGroupsViewController.swift */; };
-		FAE1AA41262ECB5C008F4515 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1AA3F262ECB5C008F4515 /* GroupCell.swift */; };
-		FAE1AA42262ECB5C008F4515 /* GroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE1AA40262ECB5C008F4515 /* GroupCell.xib */; };
 		FAE1AA4B262ED520008F4515 /* ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1AA4A262ED520008F4515 /* ClassName.swift */; };
+		FAF87501263006BE0076A9A1 /* MyGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF87500263006BE0076A9A1 /* MyGroupTableViewCell.swift */; };
+		FAF87504263006D50076A9A1 /* AllGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF87503263006D50076A9A1 /* AllGroupTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +39,9 @@
 		FAE1AA33262EBF8D008F4515 /* ListOfGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfGroups.swift; sourceTree = "<group>"; };
 		FAE1AA37262EC8CB008F4515 /* MyGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsViewController.swift; sourceTree = "<group>"; };
 		FAE1AA3B262EC8DB008F4515 /* AllGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsViewController.swift; sourceTree = "<group>"; };
-		FAE1AA3F262ECB5C008F4515 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
-		FAE1AA40262ECB5C008F4515 /* GroupCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupCell.xib; sourceTree = "<group>"; };
 		FAE1AA4A262ED520008F4515 /* ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassName.swift; sourceTree = "<group>"; };
+		FAF87500263006BE0076A9A1 /* MyGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupTableViewCell.swift; sourceTree = "<group>"; };
+		FAF87503263006D50076A9A1 /* AllGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +112,8 @@
 		FAE1AA3E262ECB33008F4515 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				FAE1AA3F262ECB5C008F4515 /* GroupCell.swift */,
-				FAE1AA40262ECB5C008F4515 /* GroupCell.xib */,
+				FAF87500263006BE0076A9A1 /* MyGroupTableViewCell.swift */,
+				FAF87503263006D50076A9A1 /* AllGroupTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -186,7 +186,6 @@
 				FA2C961D2625A54500323F3D /* LaunchScreen.storyboard in Resources */,
 				FA2C961A2625A54500323F3D /* Assets.xcassets in Resources */,
 				FA2C96182625A54400323F3D /* Main.storyboard in Resources */,
-				FAE1AA42262ECB5C008F4515 /* GroupCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,10 +199,11 @@
 				FA2C962C26270E3B00323F3D /* LoginFormViewController.swift in Sources */,
 				FAE1AA34262EBF8D008F4515 /* ListOfGroups.swift in Sources */,
 				FA2C96112625A54400323F3D /* AppDelegate.swift in Sources */,
+				FAF87501263006BE0076A9A1 /* MyGroupTableViewCell.swift in Sources */,
 				FA2C96132625A54400323F3D /* SceneDelegate.swift in Sources */,
 				FAE1AA3C262EC8DB008F4515 /* AllGroupsViewController.swift in Sources */,
-				FAE1AA41262ECB5C008F4515 /* GroupCell.swift in Sources */,
 				FAE1AA38262EC8CB008F4515 /* MyGroupsViewController.swift in Sources */,
+				FAF87504263006D50076A9A1 /* AllGroupTableViewCell.swift in Sources */,
 				FAE1AA2E262EBF5A008F4515 /* Group.swift in Sources */,
 				FAE1AA4B262ED520008F4515 /* ClassName.swift in Sources */,
 				FAE1AA31262EBF7C008F4515 /* ListOfFriends.swift in Sources */,
